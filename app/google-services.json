@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "384712804227",
+    "project_id": "finalauthentication-aeae5",
+    "storage_bucket": "finalauthentication-aeae5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384712804227:android:2ef8379c97950362b518b6",
+        "android_client_info": {
+          "package_name": "com.example.assistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvHa3orzcb9wlSJSpmv26ueg8QPDbqlSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

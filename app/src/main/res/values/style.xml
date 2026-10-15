@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Custom style for Spinner dropdown arrow -->
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <!-- Set color for dropdown arrow -->
+    </style>
+
+    <!-- Updated AppTheme with NoActionBar to disable the default ActionBar -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize the theme, using the red color -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="colorAccent">@color/red</item>
+
+        <item name="windowNoTitle">true</item>
+
+        <item name="windowActionBar">false</item>
+        <!-- Customize your theme here if needed -->
+    </style>
+
+    <color name="red">#48494B</color>
+</resources>

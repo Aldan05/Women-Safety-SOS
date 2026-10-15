@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    tools:context=".AssistantSettings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Toolbar -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/red"
+                android:src="@drawable/back"
+                android:onClick="BackFromAssistantSettings"
+                android:contentDescription="Back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assistant Settings"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <Switch
+            android:id="@+id/wakeWordSwitch"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="50dp"
+            android:text="Enable Wake Word"
+            android:checked="true"/>
+
+        <!-- Custom Wake Word Setting -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Custom Activation Wake Word:"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:id="@+id/editCustomWakeWord"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:hint="e.g. Assistant, Help"
+                android:inputType="text"
+                android:background="@drawable/edit_text_border"
+                android:padding="8dp"/>
+
+            <Button
+                android:id="@+id/btnSaveWakeWord"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginStart="8dp"
+                android:text="Save Word"
+                android:textColor="@color/white"
+                android:background="@drawable/button_backround"
+                android:paddingHorizontal="16dp"/>
+        </LinearLayout>
+
+        <!-- Custom SOS Message Setting -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Custom Emergency SMS Message:"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/editCustomSOSMessage"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:gravity="top"
+            android:hint="Type custom emergency message..."
+            android:inputType="textMultiLine"
+            android:background="@drawable/edit_text_border"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnSaveSOSMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:text="Save Message"
+            android:textColor="@color/white"
+            android:background="@drawable/button_backround"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Switch
+            android:id="@+id/CallEmergencySwitch"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="50dp"
+            android:text="Call Emergency number when SOS triggered"
+            android:checked="true"/>
+
+        <Switch
+            android:id="@+id/switch_sos"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="50dp"
+            android:checked="true"
+            android:text="SOS Service (Power Button 3 Clicks)"/>
+
+        <Button
+            android:id="@+id/myButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next / Save"
+            android:background="@drawable/button_backround"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:onClick="MoveToNextFromSettings"/>
+
+    </LinearLayout>
+
+</ScrollView>

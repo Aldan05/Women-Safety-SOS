@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".communication">
+
+
+
+    <!-- DrawerLayout - Main container for content and menu -->
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <!-- Main Content (FrameLayout to hold the main content) -->
+
+        <!-- Drawer (Sliding Menu) -->
+        <FrameLayout
+            android:id="@+id/main_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+
+            <!-- Toolbar for the ActionBar -->
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                <!-- Hamburger icon placed on the left side of the Toolbar -->
+                <ImageButton
+                    android:id="@+id/hamburger_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="Menu"
+                    android:gravity="start"
+                    android:src="@drawable/baseline_menu_24" />
+
+                <ImageButton
+                    android:id="@+id/settings_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10dp"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:contentDescription="Menu"
+                    android:onClick="openSettings"
+
+                    android:src="@drawable/settings" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Emergency"
+
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+            </androidx.appcompat.widget.Toolbar>
+
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:src="@drawable/circle_light_gray"
+                android:translationY="-30dp" />
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:src="@drawable/circle_gray"
+                android:translationY="-30dp" />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center"
+                android:background="@drawable/red_circle"
+                android:contentDescription="Description of the image button"
+                android:onClick="sendSOSButtonClicked"
+                android:padding="10dp"
+                android:stateListAnimator="@animator/button_animator"
+                android:text="SOS"
+                android:textColor="@color/white"
+                android:textSize="34dp"
+                android:translationY="-30dp" />
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sos_button_org"
+                android:translationY="-30dp" />
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/switchContainer"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="580dp"
+
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <TextView
+                    android:id="@+id/onSwitch"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_gray_left"
+                    android:gravity="center"
+                    android:text="OFF"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/offSwitch"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_gray_right"
+                    android:gravity="center"
+                    android:text="ON"
+                    android:textColor="#000000" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="500dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Press this button in"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Emergency"
+                    android:textColor="#ED0A0A"
+
+                    android:textSize="20sp" />  <!-- Add spacing between text -->
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="640dp"
+                android:text="Status"
+                android:textSize="18sp" />
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/drawer"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:background="#3BE7BF"
+                android:elevation="4dp"
+                android:padding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="70dp"
+                    android:layout_height="70dp">
+
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/profile_circle"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/letterTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="26dp"
+                    android:layout_centerInParent="true" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="85dp"
+                    android:textColor="@color/white"
+                    android:textSize="19dp" />
+
+
+                <TextView
+                    android:id="@+id/phoneNumberTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="110dp"
+                    android:text="Phone Number"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+
+            </FrameLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+
+                    android:src="@drawable/account_circle_outline"/>
+            <!-- Buttons inside the Drawer Menu -->
+            <Button
+                android:id="@+id/profile_button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="start"
+                android:onClick="openProfile"
+                android:padding="12dp"
+                android:text="        Profile"
+                android:textSize="17sp" />
+
+            </FrameLayout>
+
+
+
+
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/phone_outline"/>
+
+
+
+
+
+            <Button
+                android:id="@+id/Emergency_contacts_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="start"
+                android:onClick="openEmergencyContacts"
+                android:padding="12dp"
+                android:text="        Emergency Contacts"
+                android:textSize="17sp" />
+
+
+
+
+
+
+            </FrameLayout>
+
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+
+                android:src="@drawable/cog_outline"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="start"
+                android:onClick="openAssistantSettings"
+                android:padding="12dp"
+                android:text="        Settings"
+                android:textSize="17sp" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+

@@ -1,0 +1,805 @@
+<resources>
+    <string name="app_name">SOS Assistant</string>
+
+
+    <string-array name="gender_array">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="dob_selected">DOB Selected: %1$s</string>
+    <string name="selected_gender">Selected: %1$s</string>
+
+    <string name="accessibility_description">This service helps keep the app running in the background.</string>
+
+    <string-array name="relation_array">
+        <item>Select Relation</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Husband</item>
+        <item>Wife</item>
+        <item>Sister</item>
+        <item>Brother</item>
+        <item>Cousin</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Uncle</item>
+        <item>Aunt</item>
+        <item>Father-in-law</item>
+        <item>Mother-in-law</item>
+        <item>Brother-in-law</item>
+    </string-array>
+
+
+    <string-array name="country_codes_array">
+        <item>93</item> <!-- 1 --> <!-- Afghanistan -->
+        <item>358</item> <!-- 2 --> <!-- Aland Islands -->
+        <item>355</item> <!-- 3 --> <!-- Albania -->
+        <item>213</item> <!-- 4 --> <!-- Algeria -->
+        <item>1-684</item> <!-- 5 --> <!-- American Samoa -->
+        <item>376</item> <!-- 6 --> <!-- Andorra -->
+        <item>244</item> <!-- 7 --> <!-- Angola -->
+        <item>1-264</item> <!-- 8 --> <!-- Anguilla -->
+
+        <item>1-268</item> <!-- 10 --> <!-- Antigua and Barbuda -->
+        <item>54</item> <!-- 11 --> <!-- Argentina -->
+        <item>374</item> <!-- 12 --> <!-- Armenia -->
+        <item>297</item> <!-- 13 --> <!-- Aruba -->
+        <item>61</item> <!-- 14 --> <!-- Australia -->
+        <item>43</item> <!-- 15 --> <!-- Austria -->
+        <item>994</item> <!-- 16 --> <!-- Azerbaijan -->
+        <item>1-242</item> <!-- 17 --> <!-- Bahamas -->
+        <item>973</item> <!-- 18 --> <!-- Bahrain -->
+        <item>880</item> <!-- 19 --> <!-- Bangladesh -->
+        <item>1-246</item> <!-- 20 --> <!-- Barbados -->
+        <item>375</item> <!-- 21 --> <!-- Belarus -->
+        <item>32</item> <!-- 22 --> <!-- Belgium -->
+        <item>501</item> <!-- 23 --> <!-- Belize -->
+        <item>229</item> <!-- 24 --> <!-- Benin -->
+        <item>1-441</item> <!-- 25 --> <!-- Bermuda -->
+        <item>975</item> <!-- 26 --> <!-- Bhutan -->
+        <item>591</item> <!-- 27 --> <!-- Bolivia -->
+        <item>599</item> <!-- 28 --> <!-- Bonaire, Sint Eustatius and Saba -->
+        <item>387</item> <!-- 29 --> <!-- Bosnia and Herzegovina -->
+        <item>267</item> <!-- 30 --> <!-- Botswana -->
+
+        <item>55</item> <!-- 32 --> <!-- Brazil -->
+
+        <item>673</item> <!-- 34 --> <!-- Brunei Darussalam -->
+        <item>359</item> <!-- 35 --> <!-- Bulgaria -->
+        <item>226</item> <!-- 36 --> <!-- Burkina Faso -->
+        <item>257</item> <!-- 37 --> <!-- Burundi -->
+        <item>855</item> <!-- 38 --> <!-- Cambodia -->
+        <item>237</item> <!-- 39 --> <!-- Cameroon -->
+        <item>1</item> <!-- 40 --> <!-- Canada -->
+        <item>238</item> <!-- 41 --> <!-- Cape Verde -->
+        <item>1-345</item> <!-- 42 --> <!-- Cayman Islands -->
+        <item>236</item> <!-- 43 --> <!-- Central African Republic -->
+        <item>235</item> <!-- 44 --> <!-- Chad -->
+        <item>56</item> <!-- 45 --> <!-- Chile -->
+        <item>86</item> <!-- 46 --> <!-- China -->
+        <item>61</item> <!-- 47 --> <!-- Christmas Island -->
+        <item>61</item> <!-- 48 --> <!-- Cocos (Keeling) Islands -->
+        <item>57</item> <!-- 49 --> <!-- Colombia -->
+        <item>269</item> <!-- 50 --> <!-- Comoros -->
+        <item>242</item> <!-- 51 --> <!-- Congo -->
+        <item>243</item> <!-- 52 --> <!-- Congo, Democratic Republic of the Congo -->
+        <item>682</item> <!-- 53 --> <!-- Cook Islands -->
+        <item>506</item> <!-- 54 --> <!-- Costa Rica -->
+        <item>225</item> <!-- 55 --> <!-- Cote D'Ivoire -->
+        <item>385</item> <!-- 56 --> <!-- Croatia -->
+        <item>53</item> <!-- 57 --> <!-- Cuba -->
+        <item>599</item> <!-- 58 --> <!-- Curacao -->
+        <item>357</item> <!-- 59 --> <!-- Cyprus -->
+        <item>420</item> <!-- 60 --> <!-- Czech Republic -->
+        <item>45</item> <!-- 61 --> <!-- Denmark -->
+        <item>253</item> <!-- 62 --> <!-- Djibouti -->
+        <item>1-767</item> <!-- 63 --> <!-- Dominica -->
+        <item>1-809</item> <!-- 64 --> <!-- Dominican Republic -->
+        <item>593</item> <!-- 65 --> <!-- Ecuador -->
+        <item>20</item> <!-- 66 --> <!-- Egypt -->
+        <item>503</item> <!-- 67 --> <!-- El Salvador -->
+        <item>240</item> <!-- 68 --> <!-- Equatorial Guinea -->
+        <item>291</item> <!-- 69 --> <!-- Eritrea -->
+        <item>372</item> <!-- 70 --> <!-- Estonia -->
+        <item>251</item> <!-- 71 --> <!-- Ethiopia -->
+
+        <item>500</item> <!-- 73 --> <!-- Falkland Islands (Malvinas) -->
+        <item>298</item> <!-- 74 --> <!-- Faroe Islands -->
+        <item>679</item> <!-- 75 --> <!-- Fiji -->
+        <item>358</item> <!-- 76 --> <!-- Finland -->
+        <item>33</item> <!-- 77 --> <!-- France -->
+        <item>594</item> <!-- 78 --> <!-- French Guiana -->
+        <item>689</item> <!-- 79 --> <!-- French Polynesia -->
+        <item>262</item> <!-- 80 --> <!-- French Southern Territories -->
+        <item>241</item> <!-- 81 --> <!-- Gabon -->
+        <item>220</item> <!-- 82 --> <!-- Gambia -->
+        <item>995</item> <!-- 83 --> <!-- Georgia -->
+        <item>49</item> <!-- 84 --> <!-- Germany -->
+        <item>233</item> <!-- 85 --> <!-- Ghana -->
+        <item>350</item> <!-- 86 --> <!-- Gibraltar -->
+        <item>30</item> <!-- 87 --> <!-- Greece -->
+        <item>299</item> <!-- 88 --> <!-- Greenland -->
+        <item>1-473</item> <!-- 89 --> <!-- Grenada -->
+        <item>590</item> <!-- 90 --> <!-- Guadeloupe -->
+        <item>1-671</item> <!-- 91 --> <!-- Guam -->
+        <item>502</item> <!-- 92 --> <!-- Guatemala -->
+        <item>44</item> <!-- 93 --> <!-- Guernsey -->
+        <item>224</item> <!-- 94 --> <!-- Guinea -->
+        <item>245</item> <!-- 95 --> <!-- Guinea-Bissau -->
+        <item>592</item> <!-- 96 --> <!-- Guyana -->
+        <item>509</item> <!-- 97 --> <!-- Haiti -->
+
+        <item>39</item> <!-- 99 --> <!-- Holy See (Vatican City State) -->
+        <item>504</item> <!-- 100 --> <!-- Honduras -->
+        <item>852</item> <!-- 101 --> <!-- Hong Kong -->
+        <item>36</item> <!-- 102 --> <!-- Hungary -->
+        <item>354</item> <!-- 103 --> <!-- Iceland -->
+        <item>91</item> <!-- 104 --> <!-- India -->
+        <item>62</item> <!-- 105 --> <!-- Indonesia -->
+        <item>98</item> <!-- 106 --> <!-- Iran, Islamic Republic of -->
+        <item>964</item> <!-- 107 --> <!-- Iraq -->
+        <item>353</item> <!-- 108 --> <!-- Ireland -->
+        <item>44</item> <!-- 109 --> <!-- Isle of Man -->
+        <item>972</item> <!-- 110 --> <!-- Israel -->
+        <item>39</item> <!-- 111 --> <!-- Italy -->
+        <item>1-876</item> <!-- 112 --> <!-- Jamaica -->
+        <item>81</item> <!-- 113 --> <!-- Japan -->
+        <item>44</item> <!-- 114 --> <!-- Jersey -->
+        <item>962</item> <!-- 115 --> <!-- Jordan -->
+        <item>7</item> <!-- 116 --> <!-- Kazakhstan -->
+        <item>254</item> <!-- 117 --> <!-- Kenya -->
+        <item>686</item> <!-- 118 --> <!-- Kiribati -->
+        <item>850</item> <!-- 119 --> <!-- Korea, Democratic People's Republic of -->
+        <item>82</item> <!-- 120 --> <!-- Korea, Republic of -->
+        <item>383</item> <!-- 121 --> <!-- Kosovo -->
+        <item>965</item> <!-- 122 --> <!-- Kuwait -->
+        <item>996</item> <!-- 123 --> <!-- Kyrgyzstan -->
+        <item>856</item> <!-- 124 --> <!-- Lao People's Democratic Republic -->
+        <item>371</item> <!-- 125 --> <!-- Latvia -->
+        <item>961</item> <!-- 126 --> <!-- Lebanon -->
+        <item>266</item> <!-- 127 --> <!-- Lesotho -->
+        <item>231</item> <!-- 128 --> <!-- Liberia -->
+        <item>218</item> <!-- 129 --> <!-- Libyan Arab Jamahiriya -->
+        <item>423</item> <!-- 130 --> <!-- Liechtenstein -->
+        <item>370</item> <!-- 131 --> <!-- Lithuania -->
+        <item>352</item> <!-- 132 --> <!-- Luxembourg -->
+        <item>853</item> <!-- 133 --> <!-- Macao -->
+        <item>389</item> <!-- 134 --> <!-- Macedonia, the Former Yugoslav Republic of -->
+        <item>261</item> <!-- 135 --> <!-- Madagascar -->
+        <item>265</item> <!-- 136 --> <!-- Malawi -->
+        <item>60</item> <!-- 137 --> <!-- Malaysia -->
+        <item>960</item> <!-- 138 --> <!-- Maldives -->
+        <item>223</item> <!-- 139 --> <!-- Mali -->
+        <item>356</item> <!-- 140 --> <!-- Malta -->
+        <item>692</item> <!-- 141 --> <!-- Marshall Islands -->
+        <item>596</item> <!-- 142 --> <!-- Martinique -->
+        <item>222</item> <!-- 143 --> <!-- Mauritania -->
+        <item>230</item> <!-- 144 --> <!-- Mauritius -->
+        <item>262</item> <!-- 145 --> <!-- Mayotte -->
+        <item>52</item> <!-- 146 --> <!-- Mexico -->
+        <item>691</item> <!-- 147 --> <!-- Micronesia, Federated States of -->
+        <item>373</item> <!-- 148 --> <!-- Moldova, Republic of -->
+        <item>377</item> <!-- 149 --> <!-- Monaco -->
+        <item>976</item> <!-- 150 --> <!-- Mongolia -->
+        <item>382</item> <!-- 151 --> <!-- Montenegro -->
+        <item>1-664</item> <!-- 152 --> <!-- Montserrat -->
+        <item>212</item> <!-- 153 --> <!-- Morocco -->
+        <item>258</item> <!-- 154 --> <!-- Mozambique -->
+        <item>95</item> <!-- 155 --> <!-- Myanmar -->
+        <item>264</item> <!-- 156 --> <!-- Namibia -->
+        <item>674</item> <!-- 157 --> <!-- Nauru -->
+        <item>977</item> <!-- 158 --> <!-- Nepal -->
+        <item>31</item> <!-- 159 --> <!-- Netherlands -->
+        <item>599</item> <!-- 160 --> <!-- Netherlands Antilles -->
+        <item>687</item> <!-- 161 --> <!-- New Caledonia -->
+        <item>64</item> <!-- 162 --> <!-- New Zealand -->
+        <item>505</item> <!-- 163 --> <!-- Nicaragua -->
+        <item>227</item> <!-- 164 --> <!-- Niger -->
+        <item>234</item> <!-- 165 --> <!-- Nigeria -->
+        <item>683</item> <!-- 166 --> <!-- Niue -->
+        <item>672</item> <!-- 167 --> <!-- Norfolk Island -->
+        <item>1-670</item> <!-- 168 --> <!-- Northern Mariana Islands -->
+        <item>47</item> <!-- 169 --> <!-- Norway -->
+        <item>968</item> <!-- 170 --> <!-- Oman -->
+        <item>92</item> <!-- 171 --> <!-- Pakistan -->
+        <item>680</item> <!-- 172 --> <!-- Palau -->
+        <item>970</item> <!-- 173 --> <!-- Palestinian Territory, Occupied -->
+        <item>507</item> <!-- 174 --> <!-- Panama -->
+        <item>675</item> <!-- 175 --> <!-- Papua New Guinea -->
+        <item>595</item> <!-- 176 --> <!-- Paraguay -->
+        <item>51</item> <!-- 177 --> <!-- Peru -->
+        <item>63</item> <!-- 178 --> <!-- Philippines -->
+
+        <item>48</item> <!-- 180 --> <!-- Poland -->
+        <item>351</item> <!-- 181 --> <!-- Portugal -->
+        <item>1</item> <!-- 182 --> <!-- Puerto Rico -->
+        <item>974</item> <!-- 183 --> <!-- Qatar -->
+        <item>262</item> <!-- 184 --> <!-- Reunion -->
+        <item>40</item> <!-- 185 --> <!-- Romania -->
+        <item>7</item> <!-- 186 --> <!-- Russian Federation -->
+        <item>250</item> <!-- 187 --> <!-- Rwanda -->
+        <item>590</item> <!-- 188 --> <!-- Saint Barthelemy -->
+        <item>290</item> <!-- 189 --> <!-- Saint Helena -->
+        <item>1-869</item> <!-- 190 --> <!-- Saint Kitts and Nevis -->
+        <item>1-758</item> <!-- 191 --> <!-- Saint Lucia -->
+        <item>590</item> <!-- 192 --> <!-- Saint Martin -->
+        <item>508</item> <!-- 193 --> <!-- Saint Pierre and Miquelon -->
+        <item>1-784</item> <!-- 194 --> <!-- Saint Vincent and the Grenadines -->
+        <item>685</item> <!-- 195 --> <!-- Samoa -->
+        <item>378</item> <!-- 196 --> <!-- San Marino -->
+        <item>239</item> <!-- 197 --> <!-- Sao Tome and Principe -->
+        <item>966</item> <!-- 198 --> <!-- Saudi Arabia -->
+        <item>221</item> <!-- 199 --> <!-- Senegal -->
+        <item>381</item> <!-- 200 --> <!-- Serbia -->
+        <item>248</item> <!-- 202 --> <!-- Seychelles -->
+        <item>232</item> <!-- 203 --> <!-- Sierra Leone -->
+        <item>65</item> <!-- 204 --> <!-- Singapore -->
+        <item>1-721</item> <!-- 205 --> <!-- Sint Maarten -->
+        <item>421</item> <!-- 206 --> <!-- Slovakia -->
+        <item>386</item> <!-- 207 --> <!-- Slovenia -->
+        <item>677</item> <!-- 208 --> <!-- Solomon Islands -->
+        <item>252</item> <!-- 209 --> <!-- Somalia -->
+        <item>27</item> <!-- 210 --> <!-- South Africa -->
+
+        <item>211</item> <!-- 212 --> <!-- South Sudan -->
+        <item>34</item> <!-- 213 --> <!-- Spain -->
+        <item>94</item> <!-- 214 --> <!-- Sri Lanka -->
+        <item>249</item> <!-- 215 --> <!-- Sudan -->
+        <item>597</item> <!-- 216 --> <!-- Suriname -->
+        <item>47</item> <!-- 217 --> <!-- Svalbard and Jan Mayen -->
+        <item>268</item> <!-- 218 --> <!-- Swaziland -->
+        <item>46</item> <!-- 219 --> <!-- Sweden -->
+        <item>41</item> <!-- 220 --> <!-- Switzerland -->
+        <item>963</item> <!-- 221 --> <!-- Syrian Arab Republic -->
+        <item>886</item> <!-- 222 --> <!-- Taiwan -->
+        <item>992</item> <!-- 223 --> <!-- Tajikistan -->
+        <item>255</item> <!-- 224 --> <!-- Tanzania -->
+        <item>66</item> <!-- 225 --> <!-- Thailand -->
+        <item>670</item>
+        <item>228</item> <!-- 226 --> <!-- Togo -->
+        <item>690</item> <!-- 227 --> <!-- Tokelau -->
+        <item>676</item> <!-- 228 --> <!-- Tonga -->
+        <item>1-868</item> <!-- 229 --> <!-- Trinidad and Tobago -->
+        <item>216</item> <!-- 230 --> <!-- Tunisia -->
+        <item>90</item> <!-- 231 --> <!-- Turkey -->
+        <item>993</item> <!-- 232 --> <!-- Turkmenistan -->
+        <item>1-649</item> <!-- 233 --> <!-- Turks and Caicos Islands -->
+        <item>688</item> <!-- 234 --> <!-- Tuvalu -->
+        <item>256</item> <!-- 235 --> <!-- Uganda -->
+        <item>380</item> <!-- 236 --> <!-- Ukraine -->
+        <item>971</item> <!-- 237 --> <!-- United Arab Emirates -->
+        <item>44</item> <!-- 238 --> <!-- United Kingdom -->
+        <item>1</item> <!-- 239 --> <!-- United States -->
+        <item>598</item> <!-- 240 --> <!-- Uruguay -->
+        <item>998</item> <!-- 241 --> <!-- Uzbekistan -->
+        <item>678</item> <!-- 242 --> <!-- Vanuatu -->
+        <item>58</item> <!-- 244 --> <!-- Venezuela -->
+        <item>84</item> <!-- 245 --> <!-- Vietnam -->
+        <item>1-284</item>
+        <item>1-340</item>
+        <item>681</item>
+        <item>212</item>
+        <item>967</item> <!-- 246 --> <!-- Yemen -->
+        <item>260</item> <!-- 247 --> <!-- Zambia -->
+        <item>263</item> <!-- 248 --> <!-- Zimbabwe -->
+
+    </string-array>
+
+
+    <string-array name="countries_array">
+        <!-- Total countries: 253 -->
+        <item>Afghanistan (+93)</item> <!-- 1 -->
+        <item>Aland Islands (+358)</item> <!-- 2 -->
+        <item>Albania (+355)</item> <!-- 3 -->
+        <item>Algeria (+213)</item> <!-- 4 -->
+        <item>American Samoa (+1-684)</item> <!-- 5 -->
+        <item>Andorra (+376)</item> <!-- 6 -->
+        <item>Angola (+244)</item> <!-- 7 -->
+        <item>Anguilla (+1-264)</item> <!-- 8 -->
+
+        <item>Antigua and Barbuda (+1-268)</item> <!-- 10 -->
+        <item>Argentina (+54)</item> <!-- 11 -->
+        <item>Armenia (+374)</item> <!-- 12 -->
+        <item>Aruba (+297)</item> <!-- 13 -->
+        <item>Australia (+61)</item> <!-- 14 -->
+        <item>Austria (+43)</item> <!-- 15 -->
+        <item>Azerbaijan (+994)</item> <!-- 16 -->
+        <item>Bahamas (+1-242)</item> <!-- 17 -->
+        <item>Bahrain (+973)</item> <!-- 18 -->
+        <item>Bangladesh (+880)</item> <!-- 19 -->
+        <item>Barbados (+1-246)</item> <!-- 20 -->
+        <item>Belarus (+375)</item> <!-- 21 -->
+        <item>Belgium (+32)</item> <!-- 22 -->
+        <item>Belize (+501)</item> <!-- 23 -->
+        <item>Benin (+229)</item> <!-- 24 -->
+        <item>Bermuda (+1-441)</item> <!-- 25 -->
+        <item>Bhutan (+975)</item> <!-- 26 -->
+        <item>Bolivia (+591)</item> <!-- 27 -->
+        <item>Bonaire, Sint Eustatius and Saba (+599)</item> <!-- 28 -->
+        <item>Bosnia and Herzegovina (+387)</item> <!-- 29 -->
+        <item>Botswana (+267)</item> <!-- 30 -->
+
+        <item>Brazil (+55)</item> <!-- 32 -->
+
+        <item>Brunei Darussalam (+673)</item> <!-- 34 -->
+        <item>Bulgaria (+359)</item> <!-- 35 -->
+        <item>Burkina Faso (+226)</item> <!-- 36 -->
+        <item>Burundi (+257)</item> <!-- 37 -->
+        <item>Cambodia (+855)</item> <!-- 38 -->
+        <item>Cameroon (+237)</item> <!-- 39 -->
+        <item>Canada (+1)</item> <!-- 40 -->
+        <item>Cape Verde (+238)</item> <!-- 41 -->
+        <item>Cayman Islands (+1-345)</item> <!-- 42 -->
+        <item>Central African Republic (+236)</item> <!-- 43 -->
+        <item>Chad (+235)</item> <!-- 44 -->
+        <item>Chile (+56)</item> <!-- 45 -->
+        <item>China (+86)</item> <!-- 46 -->
+        <item>Christmas Island (+61)</item> <!-- 47 -->
+        <item>Cocos (Keeling) Islands (+61)</item> <!-- 48 -->
+        <item>Colombia (+57)</item> <!-- 49 -->
+        <item>Comoros (+269)</item> <!-- 50 -->
+        <item>Congo (+242)</item> <!-- 51 -->
+        <item>Congo, Democratic Republic of the Congo (+243)</item> <!-- 52 -->
+        <item>Cook Islands (+682)</item> <!-- 53 -->
+        <item>Costa Rica (+506)</item> <!-- 54 -->
+        <item>Cote DIvoire (+225)</item> <!-- 55 -->
+        <item>Croatia (+385)</item> <!-- 56 -->
+        <item>Cuba (+53)</item> <!-- 57 -->
+        <item>Curacao (+599)</item> <!-- 58 -->
+        <item>Cyprus (+357)</item> <!-- 59 -->
+        <item>Czech Republic (+420)</item> <!-- 60 -->
+        <item>Denmark (+45)</item> <!-- 61 -->
+        <item>Djibouti (+253)</item> <!-- 62 -->
+        <item>Dominica (+1-767)</item> <!-- 63 -->
+        <item>Dominican Republic (+1-809)</item> <!-- 64 -->
+        <item>Ecuador (+593)</item> <!-- 65 -->
+        <item>Egypt (+20)</item> <!-- 66 -->
+        <item>El Salvador (+503)</item> <!-- 67 -->
+        <item>Equatorial Guinea (+240)</item> <!-- 68 -->
+        <item>Eritrea (+291)</item> <!-- 69 -->
+        <item>Estonia (+372)</item> <!-- 70 -->
+        <item>Ethiopia (+251)</item> <!-- 71 -->
+
+        <item>Falkland Islands (Malvinas) (+500)</item> <!-- 73 -->
+        <item>Faroe Islands (+298)</item> <!-- 74 -->
+        <item>Fiji (+679)</item> <!-- 75 -->
+        <item>Finland (+358)</item> <!-- 76 -->
+        <item>France (+33)</item> <!-- 77 -->
+        <item>French Guiana (+594)</item> <!-- 78 -->
+        <item>French Polynesia (+689)</item> <!-- 79 -->
+        <item>French Southern Territories (+262)</item> <!-- 80 -->
+        <item>Gabon (+241)</item> <!-- 81 -->
+        <item>Gambia (+220)</item> <!-- 82 -->
+        <item>Georgia (+995)</item> <!-- 83 -->
+        <item>Germany (+49)</item> <!-- 84 -->
+        <item>Ghana (+233)</item> <!-- 85 -->
+        <item>Gibraltar (+350)</item> <!-- 86 -->
+        <item>Greece (+30)</item> <!-- 87 -->
+        <item>Greenland (+299)</item> <!-- 88 -->
+        <item>Grenada (+1-473)</item> <!-- 89 -->
+        <item>Guadeloupe (+590)</item> <!-- 90 -->
+        <item>Guam (+1-671)</item> <!-- 91 -->
+        <item>Guatemala (+502)</item> <!-- 92 -->
+        <item>Guernsey (+44)</item> <!-- 93 -->
+        <item>Guinea (+224)</item> <!-- 94 -->
+        <item>Guinea Bissau (+245)</item> <!-- 95 -->
+        <item>Guyana (+592)</item> <!-- 96 -->
+        <item>Haiti (+509)</item> <!-- 97 -->
+
+        <item>Holy See (Vatican City State) (+39)</item> <!-- 99 -->
+        <item>Honduras (+504)</item> <!-- 100 -->
+        <item>Hong Kong (+852)</item> <!-- 101 -->
+        <item>Hungary (+36)</item> <!-- 102 -->
+        <item>Iceland (+354)</item> <!-- 103 -->
+        <item>India (+91)</item> <!-- 104 -->
+        <item>Indonesia (+62)</item> <!-- 105 -->
+        <item>Iran, Islamic Republic of (+98)</item> <!-- 106 -->
+        <item>Iraq (+964)</item> <!-- 107 -->
+        <item>Ireland (+353)</item> <!-- 108 -->
+        <item>Isle of Man (+44)</item> <!-- 109 -->
+        <item>Israel (+972)</item> <!-- 110 -->
+        <item>Italy (+39)</item> <!-- 111 -->
+        <item>Jamaica (+1-876)</item> <!-- 112 -->
+        <item>Japan (+81)</item> <!-- 113 -->
+        <item>Jersey (+44)</item> <!-- 114 -->
+        <item>Jordan (+962)</item> <!-- 115 -->
+        <item>Kazakhstan (+7)</item> <!-- 116 -->
+        <item>Kenya (+254)</item> <!-- 117 -->
+        <item>Kiribati (+686)</item> <!-- 118 -->
+        <item>Korea, Democratic Peoples Republic of (+850)</item> <!-- 119 -->
+        <item>Korea, Republic of (+82)</item> <!-- 120 -->
+        <item>Kosovo (+383)</item> <!-- 121 -->
+        <item>Kuwait (+965)</item> <!-- 122 -->
+        <item>Kyrgyzstan (+996)</item> <!-- 123 -->
+        <item>Lao Peoples Democratic Republic (+856)</item> <!-- 124 -->
+        <item>Latvia (+371)</item> <!-- 125 -->
+        <item>Lebanon (+961)</item> <!-- 126 -->
+        <item>Lesotho (+266)</item> <!-- 127 -->
+        <item>Liberia (+231)</item> <!-- 128 -->
+        <item>Libyan Arab Jamahiriya (+218)</item> <!-- 129 -->
+        <item>Liechtenstein (+423)</item> <!-- 130 -->
+        <item>Lithuania (+370)</item> <!-- 131 -->
+        <item>Luxembourg (+352)</item> <!-- 132 -->
+        <item>Macao (+853)</item> <!-- 133 -->
+        <item>Macedonia, the Former Yugoslav Republic of (+389)</item> <!-- 134 -->
+        <item>Madagascar (+261)</item> <!-- 135 -->
+        <item>Malawi (+265)</item> <!-- 136 -->
+        <item>Malaysia (+60)</item> <!-- 137 -->
+        <item>Maldives (+960)</item> <!-- 138 -->
+        <item>Mali (+223)</item> <!-- 139 -->
+        <item>Malta (+356)</item> <!-- 140 -->
+        <item>Marshall Islands (+692)</item> <!-- 141 -->
+        <item>Martinique (+596)</item> <!-- 142 -->
+        <item>Mauritania (+222)</item> <!-- 143 -->
+        <item>Mauritius (+230)</item> <!-- 144 -->
+        <item>Mayotte (+262)</item> <!-- 145 -->
+        <item>Mexico (+52)</item> <!-- 146 -->
+        <item>Micronesia, Federated States of (+691)</item> <!-- 147 -->
+        <item>Moldova, Republic of (+373)</item> <!-- 148 -->
+        <item>Monaco (+377)</item> <!-- 149 -->
+        <item>Mongolia (+976)</item> <!-- 150 -->
+        <item>Montenegro (+382)</item> <!-- 151 -->
+        <item>Montserrat (+1-664)</item> <!-- 152 -->
+        <item>Morocco (+212)</item> <!-- 153 -->
+        <item>Mozambique (+258)</item> <!-- 154 -->
+        <item>Myanmar (+95)</item> <!-- 155 -->
+        <item>Namibia (+264)</item> <!-- 156 -->
+        <item>Nauru (+674)</item> <!-- 157 -->
+        <item>Nepal (+977)</item> <!-- 158 -->
+        <item>Netherlands (+31)</item> <!-- 159 -->
+        <item>Netherlands Antilles (+599)</item> <!-- 160 -->
+        <item>New Caledonia (+687)</item> <!-- 161 -->
+        <item>New Zealand (+64)</item> <!-- 162 -->
+        <item>Nicaragua (+505)</item> <!-- 163 -->
+        <item>Niger (+227)</item> <!-- 164 -->
+        <item>Nigeria (+234)</item> <!-- 165 -->
+        <item>Niue (+683)</item> <!-- 166 -->
+        <item>Norfolk Island (+672)</item> <!-- 167 -->
+        <item>Northern Mariana Islands (+1-670)</item> <!-- 168 -->
+        <item>Norway (+47)</item> <!-- 169 -->
+        <item>Oman (+968)</item> <!-- 170 -->
+        <item>Pakistan (+92)</item> <!-- 171 -->
+        <item>Palau (+680)</item> <!-- 172 -->
+        <item>Palestinian Territory, Occupied (+970)</item> <!-- 173 -->
+        <item>Panama (+507)</item> <!-- 174 -->
+        <item>Papua New Guinea (+675)</item> <!-- 175 -->
+        <item>Paraguay (+595)</item> <!-- 176 -->
+        <item>Peru (+51)</item> <!-- 177 -->
+        <item>Philippines (+63)</item> <!-- 178 -->
+
+        <item>Poland (+48)</item> <!-- 180 -->
+        <item>Portugal (+351)</item> <!-- 181 -->
+        <item>Puerto Rico (+1)</item> <!-- 182 -->
+        <item>Qatar (+974)</item> <!-- 183 -->
+        <item>Reunion (+262)</item> <!-- 184 -->
+        <item>Romania (+40)</item> <!-- 185 -->
+        <item>Russian Federation (+7)</item> <!-- 186 -->
+        <item>Rwanda (+250)</item> <!-- 187 -->
+        <item>Saint Barthelemy (+590)</item> <!-- 188 -->
+        <item>Saint Helena (+290)</item> <!-- 189 -->
+        <item>Saint Kitts and Nevis (+1-869)</item> <!-- 190 -->
+        <item>Saint Lucia (+1-758)</item> <!-- 191 -->
+        <item>Saint Martin (+590)</item> <!-- 192 -->
+        <item>Saint Pierre and Miquelon (+508)</item> <!-- 193 -->
+        <item>Saint Vincent and the Grenadines (+1-784)</item> <!-- 194 -->
+        <item>Samoa (+685)</item> <!-- 195 -->
+        <item>San Marino (+378)</item> <!-- 196 -->
+        <item>Sao Tome and Principe (+239)</item> <!-- 197 -->
+        <item>Saudi Arabia (+966)</item> <!-- 198 -->
+        <item>Senegal (+221)</item> <!-- 199 -->
+        <item>Serbia (+381)</item> <!-- 200 -->
+        <item>Seychelles (+248)</item> <!-- 201 -->
+        <item>Sierra Leone (+232)</item> <!-- 202 -->
+        <item>Singapore (+65)</item> <!-- 203 -->
+        <item>Sint Maarten (+1-721)</item> <!-- 204 -->
+        <item>Slovakia (+421)</item> <!-- 205 -->
+        <item>Slovenia (+386)</item> <!-- 206 -->
+        <item>Solomon Islands (+677)</item> <!-- 207 -->
+        <item>Somalia (+252)</item> <!-- 208 -->
+        <item>South Africa (+27)</item> <!-- 209 -->
+
+        <item>South Sudan (+211)</item> <!-- 211 -->
+        <item>Spain (+34)</item> <!-- 212 -->
+        <item>Sri Lanka (+94)</item> <!-- 213 -->
+        <item>Sudan (+249)</item> <!-- 214 -->
+        <item>Suriname (+597)</item> <!-- 215 -->
+        <item>Svalbard and Jan Mayen (+47)</item> <!-- 216 -->
+        <item>Swaziland (+268)</item> <!-- 217 -->
+        <item>Sweden (+46)</item> <!-- 218 -->
+        <item>Switzerland (+41)</item> <!-- 219 -->
+        <item>Syrian Arab Republic (+963)</item> <!-- 220 -->
+        <item>Taiwan (+886)</item> <!-- 221 -->
+        <item>Tajikistan (+992)</item> <!-- 222 -->
+        <item>Tanzania (+255)</item> <!-- 223 -->
+        <item>Thailand (+66)</item> <!-- 224 -->
+        <item>Timor-Leste (+670)</item>
+        <item>Togo (+228)</item> <!-- 225 -->
+        <item>Tokelau (+690)</item> <!-- 226 -->
+        <item>Tonga (+676)</item> <!-- 227 -->
+        <item>Trinidad and Tobago (+1-868)</item> <!-- 228 -->
+        <item>Tunisia (+216)</item> <!-- 229 -->
+        <item>Turkey (+90)</item> <!-- 230 -->
+        <item>Turkmenistan (+993)</item> <!-- 231 -->
+        <item>Turks and Caicos Islands (+1-649)</item> <!-- 232 -->
+        <item>Tuvalu (+688)</item> <!-- 233 -->
+        <item>Uganda (+256)</item> <!-- 234 -->
+        <item>Ukraine (+380)</item> <!-- 235 -->
+        <item>United Arab Emirates (+971)</item> <!-- 236 -->
+        <item>United Kingdom (+44)</item> <!-- 237 -->
+        <item>United States (+1)</item> <!-- 238 -->
+        <item>Uruguay (+598)</item> <!-- 239 -->
+        <item>Uzbekistan (+998)</item> <!-- 240 -->
+        <item>Vanuatu (+678)</item> <!-- 241 -->
+        <item>Venezuela (+58)</item> <!-- 242 -->
+        <item>Viet Nam (+84)</item> <!-- 243 -->
+        <item>Virgin Islands, British</item>
+        <item>Virgin Islands, U.s.</item>
+        <item>Wallis and Futuna</item>
+        <item>Western Sahara (+212)</item> <!-- 244 -->
+        <item>Yemen (+967)</item> <!-- 245 -->
+        <item>Zambia (+260)</item> <!-- 246 -->
+        <item>Zimbabwe (+263)</item> <!-- 247 -->
+    </string-array>
+
+    <string-array name="police_numbers_array">
+
+        <item>119</item> <!-- Afghanistan -->
+        <item>112</item> <!-- Aland Islands -->
+        <item>112</item> <!-- Albania -->
+        <item>17</item> <!-- Algeria -->
+        <item>911</item> <!-- American Samoa -->
+        <item>112</item> <!-- Andorra -->
+        <item>113</item> <!-- Angola -->
+        <item>911</item> <!-- Anguilla -->
+
+        <item>911</item> <!-- Antigua and Barbuda -->
+        <item>911</item> <!-- Argentina -->
+        <item>102</item> <!-- Armenia -->
+        <item>911</item> <!-- Aruba -->
+        <item>000</item> <!-- Australia -->
+        <item>133</item> <!-- Austria -->
+        <item>102</item> <!-- Azerbaijan -->
+        <item>919</item> <!-- Bahamas -->
+        <item>999</item> <!-- Bahrain -->
+        <item>999</item> <!-- Bangladesh -->
+        <item>211</item> <!-- Barbados -->
+        <item>102</item> <!-- Belarus -->
+        <item>101</item> <!-- Belgium -->
+        <item>911</item> <!-- Belize -->
+        <item>117</item> <!-- Benin -->
+        <item>911</item> <!-- Bermuda -->
+        <item>113</item> <!-- Bhutan -->
+        <item>110</item> <!-- Bolivia -->
+        <item>911</item> <!-- Bonaire, Sint Eustatius and Saba -->
+        <item>122</item> <!-- Bosnia and Herzegovina -->
+        <item>999</item> <!-- Botswana -->
+
+        <item>190</item> <!-- Brazil -->
+
+        <item>991</item> <!-- Brunei Darussalam -->
+        <item>112</item> <!-- Bulgaria -->
+        <item>17</item> <!-- Burkina Faso -->
+        <item>117</item> <!-- Burundi -->
+        <item>117</item> <!-- Cambodia -->
+        <item>117</item> <!--Cameroon -->
+        <item>911</item> <!-- Canada -->
+        <item>132</item> <!-- Cape Verde -->
+        <item>911</item> <!-- Cayman Islands -->
+        <item>117</item> <!-- Central African Republic -->
+        <item>117</item> <!-- Chad -->
+        <item>133</item> <!-- Chile -->
+        <item>110</item> <!-- China -->
+        <item>891</item> <!-- Christmas Island -->
+        <item>891</item> <!-- Cocos (Keeling) Islands -->
+        <item>123</item> <!-- Colombia -->
+        <item>112</item> <!-- Comoros -->
+        <item>112</item> <!-- Congo -->
+        <item>112</item> <!-- Congo, Democratic Republic of the Congo -->
+        <item>999</item> <!-- Cook Islands -->
+        <item>911</item> <!-- Costa Rica -->
+        <item>112</item> <!-- Cote D'Ivoire -->
+        <item>112</item> <!-- Croatia -->
+        <item>106</item> <!-- Cuba -->
+        <item>911</item> <!-- Curacao -->
+        <item>112</item> <!-- Cyprus -->
+        <item>112</item> <!-- Czech Republic -->
+        <item>112</item> <!-- Denmark -->
+        <item>17</item> <!-- Djibouti -->
+        <item>999</item> <!-- Dominica -->
+        <item>911</item> <!-- Dominican Republic -->
+        <item>911</item> <!-- Ecuador -->
+        <item>122</item> <!-- Egypt -->
+        <item>911</item> <!-- El Salvador -->
+        <item>112</item> <!-- Equatorial Guinea -->
+        <item>112</item> <!-- Eritrea -->
+        <item>112</item> <!-- Estonia -->
+        <item>991</item> <!-- Ethiopia -->
+
+        <item>999</item> <!-- Falkland Islands (Malvinas) -->
+        <item>112</item> <!-- Faroe Islands -->
+        <item>911</item> <!-- Fiji -->
+        <item>112</item> <!-- Finland -->
+        <item>17</item> <!-- France -->
+        <item>112</item> <!-- French Guiana -->
+        <item>112</item> <!-- French Polynesia -->
+        <item>112</item> <!-- French Southern Territories -->
+        <item>133</item> <!-- Gabon -->
+        <item>113</item> <!-- Gambia -->
+        <item>112</item> <!-- Georgia -->
+        <item>110</item> <!-- Germany -->
+        <item>112</item> <!-- Ghana -->
+        <item>112</item> <!-- Gibraltar -->
+        <item>112</item> <!-- Greece -->
+        <item>112</item> <!-- Greenland -->
+        <item>911</item> <!-- Grenada -->
+        <item>112</item> <!-- Guadeloupe -->
+        <item>911</item> <!-- Guam -->
+        <item>110</item> <!-- Guatemala -->
+        <item>999</item> <!-- Guernsey -->
+        <item>112</item> <!-- Guinea -->
+        <item>112</item> <!-- Guinea-Bissau -->
+        <item>911</item> <!-- Guyana -->
+        <item>911</item> <!-- Haiti -->
+
+        <item>113</item> <!-- Holy See (Vatican City State) -->
+        <item>911</item> <!-- Honduras -->
+        <item>999</item> <!-- Hong Kong -->
+        <item>112</item> <!-- Hungary -->
+        <item>112</item> <!-- Iceland -->
+        <item>112</item> <!-- India -->
+        <item>110</item> <!-- Indonesia -->
+        <item>110</item> <!-- Iran, Islamic Republic of -->
+        <item>112</item> <!-- Iraq -->
+        <item>112</item> <!-- Ireland -->
+        <item>999</item> <!-- Isle of Man -->
+        <item>100</item> <!-- Israel -->
+        <item>112</item> <!-- Italy -->
+        <item>119</item> <!-- Jamaica -->
+        <item>110</item> <!-- Japan -->
+        <item>999</item> <!-- Jersey -->
+        <item>112</item> <!-- Jordan -->
+        <item>102</item> <!-- Kazakhstan -->
+        <item>999</item> <!-- Kenya -->
+        <item>911</item> <!-- Kiribati -->
+        <item>112</item> <!-- Korea, Democratic People's Republic of -->
+        <item>112</item> <!-- Korea, Republic of -->
+        <item>112</item> <!-- Kosovo -->
+        <item>112</item> <!-- Kuwait -->
+        <item>102</item> <!-- Kyrgyzstan -->
+        <item>119</item> <!-- Lao People's Democratic Republic -->
+        <item>112</item> <!-- Latvia -->
+        <item>112</item> <!-- Lebanon -->
+        <item>999</item> <!-- Lesotho -->
+        <item>911</item> <!-- Liberia -->
+        <item>215</item> <!-- Libyan Arab Jamahiriya -->
+        <item>112</item> <!-- Liechtenstein -->
+        <item>112</item> <!-- Lithuania -->
+        <item>112</item> <!-- Luxembourg -->
+        <item>112</item> <!-- Macao -->
+        <item>112</item> <!-- Macedonia, the Former Yugoslav Republic of -->
+        <item>117</item> <!-- Madagascar -->
+        <item>999</item> <!-- Malawi -->
+        <item>999</item> <!-- Malaysia -->
+        <item>999</item> <!-- Maldives -->
+        <item>112</item> <!-- Mali -->
+        <item>112</item> <!-- Malta -->
+        <item>911</item> <!-- Marshall Islands -->
+        <item>112</item> <!-- Martinique -->
+        <item>117</item> <!-- Mauritania -->
+        <item>999</item> <!-- Mauritius -->
+        <item>112</item> <!-- Mayotte -->
+        <item>911</item> <!-- Mexico -->
+        <item>911</item> <!-- Micronesia, Federated States of -->
+        <item>112</item> <!-- Moldova, Republic of -->
+        <item>112</item> <!-- Monaco -->
+        <item>102</item> <!-- Mongolia -->
+        <item>112</item> <!-- Montenegro -->
+        <item>999</item> <!-- Montserrat -->
+        <item>19</item> <!-- Morocco -->
+        <item>119</item> <!-- Mozambique -->
+        <item>199</item> <!-- Myanmar -->
+        <item>999</item> <!-- Namibia -->
+        <item>112</item> <!-- Nauru -->
+        <item>100</item> <!-- Nepal -->
+        <item>112</item> <!-- Netherlands -->
+        <item>911</item> <!-- Netherlands Antilles -->
+        <item>112</item> <!-- New Caledonia -->
+        <item>111</item> <!-- New Zealand -->
+        <item>911</item> <!-- Nicaragua -->
+        <item>117</item> <!-- Niger -->
+        <item>112</item> <!-- Nigeria -->
+        <item>112</item> <!-- Niue -->
+        <item>911</item> <!-- Norfolk Island -->
+        <item>911</item> <!-- Northern Mariana Islands -->
+        <item>112</item> <!-- Norway -->
+        <item>999</item> <!-- Oman -->
+        <item>15</item> <!-- Pakistan -->
+        <item>911</item> <!-- Palau -->
+        <item>112</item> <!-- Palestinian Territory, Occupied -->
+        <item>911</item> <!-- Panama -->
+        <item>112</item> <!-- Papua New Guinea -->
+        <item>911</item> <!-- Paraguay -->
+        <item>105</item> <!-- Peru -->
+        <item>117</item> <!-- Philippines -->
+
+        <item>997</item> <!-- Poland -->
+        <item>112</item> <!-- Portugal -->
+        <item>911</item> <!-- Puerto Rico -->
+        <item>999</item> <!-- Qatar -->
+        <item>112</item> <!-- Reunion -->
+        <item>112</item> <!-- Romania -->
+        <item>102</item> <!-- Russian Federation -->
+        <item>112</item> <!-- Rwanda -->
+        <item>112</item> <!-- Saint Barthelemy -->
+        <item>999</item> <!-- Saint Helena -->
+        <item>911</item> <!-- Saint Kitts and Nevis -->
+        <item>911</item> <!-- Saint Lucia -->
+        <item>112</item> <!-- Saint Martin -->
+        <item>112</item> <!-- Saint Pierre and Miquelon -->
+        <item>911</item> <!-- Saint Vincent and the Grenadines -->
+        <item>911</item> <!-- Samoa -->
+        <item>112</item> <!-- San Marino -->
+        <item>112</item> <!-- Sao Tome and Principe -->
+        <item>999</item> <!-- Saudi Arabia -->
+        <item>17</item> <!-- Senegal -->
+        <item>192</item> <!-- Serbia -->
+        <item>999</item> <!-- Seychelles -->
+        <item>999</item> <!-- Sierra Leone -->
+        <item>999</item> <!-- Singapore -->
+        <item>911</item> <!-- Sint Maarten -->
+        <item>112</item> <!-- Slovakia -->
+        <item>112</item> <!-- Slovenia -->
+        <item>911</item> <!-- Solomon Islands -->
+        <item>999</item> <!-- Somalia -->
+        <item>10111</item> <!-- South Africa -->
+
+        <item>911</item> <!-- South Sudan -->
+        <item>112</item> <!-- Spain -->
+        <item>119</item> <!-- Sri Lanka -->
+        <item>999</item> <!-- Sudan -->
+        <item>115</item> <!-- Suriname -->
+        <item>112</item> <!-- Svalbard and Jan Mayen -->
+        <item>999</item> <!-- Swaziland -->
+        <item>112</item> <!-- Sweden -->
+        <item>112</item> <!-- Switzerland -->
+        <item>112</item> <!-- Syrian Arab Republic -->
+        <item>110</item> <!-- Taiwan, Province of China -->
+        <item>102</item> <!-- Tajikistan -->
+        <item>112</item> <!-- Tanzania, United Republic of -->
+        <item>191</item> <!-- Thailand -->
+        <item>112</item> <!-- Timor-Leste -->
+        <item>117</item> <!-- Togo -->
+        <item>911</item> <!-- Tokelau -->
+        <item>911</item> <!-- Tonga -->
+        <item>999</item> <!-- Trinidad and Tobago -->
+        <item>193</item> <!-- Tunisia -->
+        <item>155</item> <!-- Turkey -->
+        <item>110</item> <!-- Turkmenistan -->
+        <item>911</item> <!-- Turks and Caicos Islands -->
+        <item>112</item> <!-- Tuvalu -->
+        <item>999</item> <!-- Uganda -->
+        <item>102</item> <!-- Ukraine -->
+        <item>999</item> <!-- United Arab Emirates -->
+        <item>999</item> <!-- United Kingdom -->
+        <item>911</item> <!-- United States -->
+        <item>911</item> <!-- Uruguay -->
+        <item>102</item> <!-- Uzbekistan -->
+        <item>112</item> <!-- Vanuatu -->
+        <item>171</item> <!-- Venezuela -->
+        <item>113</item> <!-- Viet Nam -->
+        <item>911</item> <!-- Virgin Islands, British -->
+        <item>911</item> <!-- Virgin Islands, U.S. -->
+        <item>112</item> <!-- Wallis and Futuna -->
+        <item>19</item> <!-- Western Sahara -->
+        <item>199</item> <!-- Yemen -->
+        <item>991</item> <!-- Zambia -->
+        <item>999</item> <!-- Zimbabwe -->
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/call_backround"
+
+    >
+
+    <TextView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:text="POLICE"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+
+
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginRight="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="18dp"
+
+
+        android:text="Tap to Decline"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+
+        android:textSize="18dp"
+
+        android:text="Tap to Answer"
+        android:textColor="@color/white"/>
+
+    <!--  android:id="@+id/timerText" set it on top -->
+
+    <!-- Floating Notification Text -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+
+        android:text="100"
+
+        android:textColor="#C3C0C0"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btnCutCall1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+
+        android:background="@drawable/red_circle"
+
+        android:src="@drawable/call_cut"
+
+        android:textColor="@color/white"
+
+        android:textSize="30dp" />
+
+
+
+
+    <!-- Dismiss Button -->
+    <ImageButton
+        android:id="@+id/btnCutCall2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+
+android:layout_marginRight="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+
+        android:background="@drawable/green_circle"
+
+android:src="@drawable/call_attend"
+        android:textColor="@color/white"
+
+        android:layout_alignParentEnd="true"
+
+
+        android:textSize="30dp" />
+</RelativeLayout>

@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/xml/countries.xml -->
+<countries>
+    <country>
+        <name>Afghanistan</name>
+        <flag>AF</flag> <!-- 1 -->
+    </country>
+    <country>
+        <name>Aland Islands</name>
+        <flag>AX</flag> <!-- 2 -->
+    </country>
+    <country>
+        <name>Albania</name>
+        <flag>AL</flag> <!-- 3 -->
+    </country>
+    <country>
+        <name>Algeria</name>
+        <flag>DZ</flag> <!-- 4 -->
+    </country>
+    <country>
+        <name>American Samoa</name>
+        <flag>AS</flag> <!-- 5 -->
+    </country>
+    <country>
+        <name>Andorra</name>
+        <flag>AD</flag> <!-- 6 -->
+    </country>
+    <country>
+        <name>Angola</name>
+        <flag>AO</flag> <!-- 7 -->
+    </country>
+    <country>
+        <name>Anguilla</name>
+        <flag>AI</flag> <!-- 8 -->
+    </country>
+    <country>
+        <name>Antarctica</name>
+        <flag>AQ</flag> <!-- 9 -->
+    </country>
+    <country>
+        <name>Antigua and Barbuda</name>
+        <flag>AG</flag> <!-- 10 -->
+    </country>
+    <country>
+        <name>Argentina</name>
+        <flag>AR</flag> <!-- 11 -->
+    </country>
+    <country>
+        <name>Armenia</name>
+        <flag>AM</flag> <!-- 12 -->
+    </country>
+    <country>
+        <name>Aruba</name>
+        <flag>AW</flag> <!-- 13 -->
+    </country>
+    <country>
+        <name>Australia</name>
+        <flag>AU</flag> <!-- 14 -->
+    </country>
+    <country>
+        <name>Austria</name>
+        <flag>AT</flag> <!-- 15 -->
+    </country>
+    <country>
+        <name>Azerbaijan</name>
+        <flag>AZ</flag> <!-- 16 -->
+    </country>
+    <country>
+        <name>Bahamas</name>
+        <flag>BS</flag> <!-- 17 -->
+    </country>
+    <country>
+        <name>Bahrain</name>
+        <flag>BH</flag> <!-- 18 -->
+    </country>
+    <country>
+        <name>Bangladesh</name>
+        <flag>BD</flag> <!-- 19 -->
+    </country>
+    <country>
+        <name>Barbados</name>
+        <flag>BB</flag> <!-- 20 -->
+    </country>
+    <country>
+        <name>Belarus</name>
+        <flag>BY</flag> <!-- 21 -->
+    </country>
+    <country>
+        <name>Belgium</name>
+        <flag>BE</flag> <!-- 22 -->
+    </country>
+    <country>
+        <name>Belize</name>
+        <flag>BZ</flag> <!-- 23 -->
+    </country>
+    <country>
+        <name>Benin</name>
+        <flag>BJ</flag> <!-- 24 -->
+    </country>
+    <country>
+        <name>Bermuda</name>
+        <flag>BM</flag> <!-- 25 -->
+    </country>
+    <country>
+        <name>Bhutan</name>
+        <flag>BT</flag> <!-- 26 -->
+    </country>
+    <country>
+        <name>Bolivia</name>
+        <flag>BO</flag> <!-- 27 -->
+    </country>
+    <country>
+        <name>Bonaire, Sint Eustatius and Saba</name>
+        <flag>BQ</flag> <!-- 28 -->
+    </country>
+    <country>
+        <name>Bosnia and Herzegovina</name>
+        <flag>BA</flag> <!-- 29 -->
+    </country>
+    <country>
+        <name>Botswana</name>
+        <flag>BW</flag> <!-- 30 -->
+    </country>
+    <country>
+        <name>Bouvet Island</name>
+        <flag>BV</flag> <!-- 31 -->
+    </country>
+    <country>
+        <name>Brazil</name>
+        <flag>BR</flag> <!-- 32 -->
+    </country>
+    <country>
+        <name>British Indian Ocean Territory</name>
+        <flag>IO</flag> <!-- 33 -->
+    </country>
+    <country>
+        <name>Brunei Darussalam</name>
+        <flag>BN</flag> <!-- 34 -->
+    </country>
+    <country>
+        <name>Bulgaria</name>
+        <flag>BG</flag> <!-- 35 -->
+    </country>
+    <country>
+        <name>Burkina Faso</name>
+        <flag>BF</flag> <!-- 36 -->
+    </country>
+    <country>
+        <name>Burundi</name>
+        <flag>BI</flag> <!-- 37 -->
+    </country>
+    <country>
+        <name>Cambodia</name>
+        <flag>KH</flag> <!-- 38 -->
+    </country>
+    <country>
+        <name>Cameroon</name>
+        <flag>CM</flag> <!-- 39 -->
+    </country>
+    <country>
+        <name>Canada</name>
+        <flag>CA</flag> <!-- 40 -->
+    </country>
+    <country>
+        <name>Cape Verde</name>
+        <flag>CV</flag> <!-- 41 -->
+    </country>
+    <country>
+        <name>Cayman Islands</name>
+        <flag>KY</flag> <!-- 42 -->
+    </country>
+    <country>
+        <name>Central African Republic</name>
+        <flag>CF</flag> <!-- 43 -->
+    </country>
+    <country>
+        <name>Chad</name>
+        <flag>TD</flag> <!-- 44 -->
+    </country>
+    <country>
+        <name>Chile</name>
+        <flag>CL</flag> <!-- 45 -->
+    </country>
+    <country>
+        <name>China</name>
+        <flag>CN</flag> <!-- 46 -->
+    </country>
+    <country>
+        <name>Christmas Island</name>
+        <flag>CX</flag> <!-- 47 -->
+    </country>
+    <country>
+        <name>Cocos (Keeling) Islands</name>
+        <flag>CC</flag> <!-- 48 -->
+    </country>
+    <country>
+        <name>Colombia</name>
+        <flag>CO</flag> <!-- 49 -->
+    </country>
+    <country>
+        <name>Comoros</name>
+        <flag>KM</flag> <!-- 50 -->
+    </country>
+    <country>
+        <name>Congo</name>
+        <flag>CG</flag> <!-- 51 -->
+    </country>
+    <country>
+        <name>Congo, Democratic Republic of the Congo</name>
+        <flag>CD</flag> <!-- 52 -->
+    </country>
+    <country>
+        <name>Cook Islands</name>
+        <flag>CK</flag> <!-- 53 -->
+    </country>
+    <country>
+        <name>Costa Rica</name>
+        <flag>CR</flag> <!-- 54 -->
+    </country>
+    <country>
+        <name>Cote d'Ivoire</name>
+        <flag>CI</flag> <!-- 55 -->
+    </country>
+    <country>
+        <name>Croatia</name>
+        <flag>HR</flag> <!-- 56 -->
+    </country>
+    <country>
+        <name>Cuba</name>
+        <flag>CU</flag> <!-- 57 -->
+    </country>
+    <country>
+        <name>Curacao</name>
+        <flag>CW</flag> <!-- 58 -->
+    </country>
+    <country>
+        <name>Cyprus</name>
+        <flag>CY</flag> <!-- 59 -->
+    </country>
+    <country>
+        <name>Czech Republic</name>
+        <flag>CZ</flag> <!-- 60 -->
+    </country>
+    <country>
+        <name>Denmark</name>
+        <flag>DK</flag> <!-- 61 -->
+    </country>
+    <country>
+        <name>Djibouti</name>
+        <flag>DJ</flag> <!-- 62 -->
+    </country>
+    <country>
+        <name>Dominica</name>
+        <flag>DM</flag> <!-- 63 -->
+    </country>
+    <country>
+        <name>Dominican Republic</name>
+        <flag>DO</flag> <!-- 64 -->
+    </country>
+    <country>
+        <name>Ecuador</name>
+        <flag>EC</flag> <!-- 65 -->
+    </country>
+    <country>
+        <name>Egypt</name>
+        <flag>EG</flag> <!-- 66 -->
+    </country>
+    <country>
+        <name>El Salvador</name>
+        <flag>SV</flag> <!-- 67 -->
+    </country>
+    <country>
+        <name>Equatorial Guinea</name>
+        <flag>GQ</flag> <!-- 68 -->
+    </country>
+    <country>
+        <name>Eritrea</name>
+        <flag>ER</flag> <!-- 69 -->
+    </country>
+    <country>
+        <name>Estonia</name>
+        <flag>EE</flag> <!-- 70 -->
+    </country>
+    <country>
+        <name>Ethiopia</name>
+        <flag>ET</flag> <!-- 71 -->
+    </country>
+    <country>
+        <name>Europe</name>
+        <flag>EU</flag> <!-- 72 -->
+    </country>
+    <country>
+        <name>Falkland Islands (Malvinas)</name>
+        <flag>FK</flag> <!-- 73 -->
+    </country>
+    <country>
+        <name>Faroe Islands</name>
+        <flag>FO</flag> <!-- 74 -->
+    </country>
+    <country>
+        <name>Fiji</name>
+        <flag>FJ</flag> <!-- 75 -->
+    </country>
+    <country>
+        <name>Finland</name>
+        <flag>FI</flag> <!-- 76 -->
+    </country>
+    <country>
+        <name>France</name>
+        <flag>FR</flag> <!-- 77 -->
+    </country>
+    <country>
+        <name>French Guiana</name>
+        <flag>GF</flag> <!-- 78 -->
+    </country>
+    <country>
+        <name>French Polynesia</name>
+        <flag>PF</flag> <!-- 79 -->
+    </country>
+    <country>
+        <name>French Southern Territories</name>
+        <flag>TF</flag> <!-- 80 -->
+    </country>
+    <country>
+        <name>Gabon</name>
+        <flag>GA</flag> <!-- 81 -->
+    </country>
+    <country>
+        <name>Gambia</name>
+        <flag>GM</flag> <!-- 82 -->
+    </country>
+    <country>
+        <name>Georgia</name>
+        <flag>GE</flag> <!-- 83 -->
+    </country>
+    <country>
+        <name>Germany</name>
+        <flag>DE</flag> <!-- 84 -->
+    </country>
+    <country>
+        <name>Ghana</name>
+        <flag>GH</flag> <!-- 85 -->
+    </country>
+    <country>
+        <name>Gibraltar</name>
+        <flag>GI</flag> <!-- 86 -->
+    </country>
+    <country>
+        <name>Greece</name>
+        <flag>GR</flag> <!-- 87 -->
+    </country>
+    <country>
+        <name>Greenland</name>
+        <flag>GL</flag> <!-- 88 -->
+    </country>
+    <country>
+        <name>Grenada</name>
+        <flag>GD</flag> <!-- 89 -->
+    </country>
+    <country>
+        <name>Guadeloupe</name>
+        <flag>GP</flag> <!-- 90 -->
+    </country>
+    <country>
+        <name>Guam</name>
+        <flag>GU</flag> <!-- 91 -->
+    </country>
+    <country>
+        <name>Guatemala</name>
+        <flag>GT</flag> <!-- 92 -->
+    </country>
+    <country>
+        <name>Guernsey</name>
+        <flag>GG</flag> <!-- 93 -->
+    </country>
+    <country>
+        <name>Guinea</name>
+        <flag>GN</flag> <!-- 94 -->
+    </country>
+    <country>
+        <name>Guinea-Bissau</name>
+        <flag>GW</flag> <!-- 95 -->
+    </country>
+    <country>
+        <name>Guyana</name>
+        <flag>GY</flag> <!-- 96 -->
+    </country>
+    <country>
+        <name>Haiti</name>
+        <flag>HT</flag> <!-- 97 -->
+    </country>
+    <country>
+        <name>Heard Island and McDonald Islands</name>
+        <flag>HM</flag> <!-- 98 -->
+    </country>
+    <country>
+        <name>Honduras</name>
+        <flag>HN</flag> <!-- 99 -->
+    </country>
+    <country>
+        <name>Hong Kong</name>
+        <flag>HK</flag> <!-- 100 -->
+    </country>
+    <country>
+        <name>Hungary</name>
+        <flag>HU</flag> <!-- 101 -->
+    </country>
+    <country>
+        <name>Iceland</name>
+        <flag>IS</flag> <!-- 102 -->
+    </country>
+    <country>
+        <name>India</name>
+        <flag>IN</flag> <!-- 103 -->
+    </country>
+    <country>
+        <name>Indonesia</name>
+        <flag>ID</flag> <!-- 104 -->
+    </country>
+    <country>
+        <name>Iran</name>
+        <flag>IR</flag> <!-- 105 -->
+    </country>
+    <country>
+        <name>Iraq</name>
+        <flag>IQ</flag> <!-- 106 -->
+    </country>
+    <country>
+        <name>Ireland</name>
+        <flag>IE</flag> <!-- 107 -->
+    </country>
+    <country>
+        <name>Isle of Man</name>
+        <flag>IM</flag> <!-- 108 -->
+    </country>
+    <country>
+        <name>Israel</name>
+        <flag>IL</flag> <!-- 109 -->
+    </country>
+    <country>
+        <name>Italy</name>
+        <flag>IT</flag> <!-- 110 -->
+    </country>
+    <country>
+        <name>Jamaica</name>
+        <flag>JM</flag> <!-- 111 -->
+    </country>
+    <country>
+        <name>Japan</name>
+        <flag>JP</flag> <!-- 112 -->
+    </country>
+    <country>
+        <name>Jersey</name>
+        <flag>JE</flag> <!-- 113 -->
+    </country>
+    <country>
+        <name>Jordan</name>
+        <flag>JO</flag> <!-- 114 -->
+    </country>
+    <country>
+        <name>Kazakhstan</name>
+        <flag>KZ</flag> <!-- 115 -->
+    </country>
+    <country>
+        <name>Kenya</name>
+        <flag>KE</flag> <!-- 116 -->
+    </country>
+    <country>
+        <name>Kiribati</name>
+        <flag>KI</flag> <!-- 117 -->
+    </country>
+    <country>
+        <name>Korea (North)</name>
+        <flag>KP</flag> <!-- 118 -->
+    </country>
+    <country>
+        <name>Korea (South)</name>
+        <flag>KR</flag> <!-- 119 -->
+    </country>
+    <country>
+        <name>Kosovo</name>
+        <flag>XK</flag> <!-- 120 -->
+    </country>
+    <country>
+        <name>Kuwait</name>
+        <flag>KW</flag> <!-- 121 -->
+    </country>
+    <country>
+        <name>Kyrgyzstan</name>
+        <flag>KG</flag> <!-- 122 -->
+    </country>
+    <country>
+        <name>Lao People's Democratic Republic</name>
+        <flag>LA</flag> <!-- 123 -->
+    </country>
+    <country>
+        <name>Latvia</name>
+        <flag>LV</flag> <!-- 124 -->
+    </country>
+    <country>
+        <name>Lebanon</name>
+        <flag>LB</flag> <!-- 125 -->
+    </country>
+    <country>
+        <name>Lesotho</name>
+        <flag>LS</flag> <!-- 126 -->
+    </country>
+    <country>
+        <name>Liberia</name>
+        <flag>LR</flag> <!-- 127 -->
+    </country>
+    <country>
+        <name>Libya</name>
+        <flag>LY</flag> <!-- 128 -->
+    </country>
+    <country>
+        <name>Liechtenstein</name>
+        <flag>LI</flag> <!-- 129 -->
+    </country>
+    <country>
+        <name>Lithuania</name>
+        <flag>LT</flag> <!-- 130 -->
+    </country>
+    <country>
+        <name>Luxembourg</name>
+        <flag>LU</flag> <!-- 131 -->
+    </country>
+    <country>
+        <name>Macao</name>
+        <flag>MO</flag> <!-- 132 -->
+    </country>
+    <country>
+        <name>Madagascar</name>
+        <flag>MG</flag> <!-- 133 -->
+    </country>
+    <country>
+        <name>Malawi</name>
+        <flag>MW</flag> <!-- 134 -->
+    </country>
+    <country>
+        <name>Malaysia</name>
+        <flag>MY</flag> <!-- 135 -->
+    </country>
+    <country>
+        <name>Maldives</name>
+        <flag>MV</flag> <!-- 136 -->
+    </country>
+    <country>
+        <name>Mali</name>
+        <flag>ML</flag> <!-- 137 -->
+    </country>
+    <country>
+        <name>Malta</name>
+        <flag>MT</flag> <!-- 138 -->
+    </country>
+    <country>
+        <name>Marshall Islands</name>
+        <flag>MH</flag> <!-- 139 -->
+    </country>
+    <country>
+        <name>Martinique</name>
+        <flag>MQ</flag> <!-- 140 -->
+    </country>
+    <country>
+        <name>Mauritania</name>
+        <flag>MR</flag> <!-- 141 -->
+    </country>
+    <country>
+        <name>Mauritius</name>
+        <flag>MU</flag> <!-- 142 -->
+    </country>
+    <country>
+        <name>Mayotte</name>
+        <flag>YT</flag> <!-- 143 -->
+    </country>
+    <country>
+        <name>Mexico</name>
+        <flag>MX</flag> <!-- 144 -->
+    </country>
+    <country>
+        <name>Micronesia (Federated States of)</name>
+        <flag>FM</flag> <!-- 145 -->
+    </country>
+    <country>
+        <name>Moldova</name>
+        <flag>MD</flag> <!-- 146 -->
+    </country>
+    <country>
+        <name>Monaco</name>
+        <flag>MC</flag> <!-- 147 -->
+    </country>
+    <country>
+        <name>Mongolia</name>
+        <flag>MN</flag> <!-- 148 -->
+    </country>
+    <country>
+        <name>Montenegro</name>
+        <flag>ME</flag> <!-- 149 -->
+    </country>
+    <country>
+        <name>Montserrat</name>
+        <flag>MS</flag> <!-- 150 -->
+    </country>
+    <country>
+        <name>Morocco</name>
+        <flag>MA</flag> <!-- 151 -->
+    </country>
+    <country>
+        <name>Mozambique</name>
+        <flag>MZ</flag> <!-- 152 -->
+    </country>
+    <country>
+        <name>Myanmar (Burma)</name>
+        <flag>MM</flag> <!-- 153 -->
+    </country>
+    <country>
+        <name>Namibia</name>
+        <flag>NA</flag> <!-- 154 -->
+    </country>
+    <country>
+        <name>Nauru</name>
+        <flag>NR</flag> <!-- 155 -->
+    </country>
+    <country>
+        <name>Nepal</name>
+        <flag>NP</flag> <!-- 156 -->
+    </country>
+    <country>
+        <name>Netherlands</name>
+        <flag>NL</flag> <!-- 157 -->
+    </country>
+    <country>
+        <name>New Caledonia</name>
+        <flag>NC</flag> <!-- 158 -->
+    </country>
+    <country>
+        <name>New Zealand</name>
+        <flag>NZ</flag> <!-- 159 -->
+    </country>
+    <country>
+        <name>Nicaragua</name>
+        <flag>NI</flag> <!-- 160 -->
+    </country>
+    <country>
+        <name>Niger</name>
+        <flag>NE</flag> <!-- 161 -->
+    </country>
+    <country>
+        <name>Nigeria</name>
+        <flag>NG</flag> <!-- 162 -->
+    </country>
+    <country>
+        <name>Niue</name>
+        <flag>NU</flag> <!-- 163 -->
+    </country>
+    <country>
+        <name>Norfolk Island</name>
+        <flag>NF</flag> <!-- 164 -->
+    </country>
+    <country>
+        <name>North Macedonia</name>
+        <flag>MK</flag> <!-- 165 -->
+    </country>
+    <country>
+        <name>Northern Mariana Islands</name>
+        <flag>MP</flag> <!-- 166 -->
+    </country>
+    <country>
+        <name>Norway</name>
+        <flag>NO</flag> <!-- 167 -->
+    </country>
+    <country>
+        <name>Oman</name>
+        <flag>OM</flag> <!-- 168 -->
+    </country>
+    <country>
+        <name>Pakistan</name>
+        <flag>PK</flag> <!-- 169 -->
+    </country>
+    <country>
+        <name>Palau</name>
+        <flag>PW</flag> <!-- 170 -->
+    </country>
+    <country>
+        <name>Panama</name>
+        <flag>PA</flag> <!-- 171 -->
+    </country>
+    <country>
+        <name>Papua New Guinea</name>
+        <flag>PG</flag> <!-- 172 -->
+    </country>
+    <country>
+        <name>Paraguay</name>
+        <flag>PY</flag> <!-- 173 -->
+    </country>
+    <country>
+        <name>Peru</name>
+        <flag>PE</flag> <!-- 174 -->
+    </country>
+    <country>
+        <name>Philippines</name>
+        <flag>PH</flag> <!-- 175 -->
+    </country>
+    <country>
+        <name>Pitcairn Islands</name>
+        <flag>PN</flag> <!-- 176 -->
+    </country>
+    <country>
+        <name>Poland</name>
+        <flag>PL</flag> <!-- 177 -->
+    </country>
+    <country>
+        <name>Portugal</name>
+        <flag>PT</flag> <!-- 178 -->
+    </country>
+    <country>
+        <name>Puerto Rico</name>
+        <flag>PR</flag> <!-- 179 -->
+    </country>
+    <country>
+        <name>Qatar</name>
+        <flag>QA</flag> <!-- 180 -->
+    </country>
+    <country>
+        <name>Romania</name>
+        <flag>RO</flag> <!-- 181 -->
+    </country>
+    <country>
+        <name>Russia</name>
+        <flag>RU</flag> <!-- 182 -->
+    </country>
+    <country>
+        <name>Rwanda</name>
+        <flag>RW</flag> <!-- 183 -->
+    </country>
+    <country>
+        <name>Reunion</name>
+        <flag>RE</flag> <!-- 184 -->
+    </country>
+    <country>
+        <name>Saint Barthelemy</name>
+        <flag>BL</flag> <!-- 185 -->
+    </country>
+    <country>
+        <name>Saint Helena, Ascension and Tristan da Cunha</name>
+        <flag>SH</flag> <!-- 186 -->
+    </country>
+    <country>
+        <name>Saint Kitts and Nevis</name>
+        <flag>KN</flag> <!-- 187 -->
+    </country>
+    <country>
+        <name>Saint Lucia</name>
+        <flag>LC</flag> <!-- 188 -->
+    </country>
+    <country>
+        <name>Saint Martin (French part)</name>
+        <flag>MF</flag> <!-- 189 -->
+    </country>
+    <country>
+        <name>Saint Pierre and Miquelon</name>
+        <flag>PM</flag> <!-- 190 -->
+    </country>
+    <country>
+        <name>Saint Vincent and the Grenadines</name>
+        <flag>VC</flag> <!-- 191 -->
+    </country>
+    <country>
+        <name>Samoa</name>
+        <flag>WS</flag> <!-- 192 -->
+    </country>
+    <country>
+        <name>San Marino</name>
+        <flag>SM</flag> <!-- 193 -->
+    </country>
+    <country>
+        <name>Sao Tome and Principe</name>
+        <flag>ST</flag> <!-- 194 -->
+    </country>
+    <country>
+        <name>Saudi Arabia</name>
+        <flag>SA</flag> <!-- 195 -->
+    </country>
+    <country>
+        <name>Senegal</name>
+        <flag>SN</flag> <!-- 196 -->
+    </country>
+    <country>
+        <name>Seychelles</name>
+        <flag>SC</flag> <!-- 197 -->
+    </country>
+    <country>
+        <name>Sierra Leone</name>
+        <flag>SL</flag> <!-- 198 -->
+    </country>
+    <country>
+        <name>Singapore</name>
+        <flag>SG</flag> <!-- 199 -->
+    </country>
+    <country>
+        <name>Saint Barthélemy</name>
+        <flag>BL</flag> <!-- 200 -->
+    </country>
+    <country>
+        <name>Slovakia</name>
+        <flag>SK</flag> <!-- 201 -->
+    </country>
+    <country>
+        <name>Slovenia</name>
+        <flag>SI</flag> <!-- 202 -->
+    </country>
+    <country>
+        <name>Solomon Islands</name>
+        <flag>SB</flag> <!-- 203 -->
+    </country>
+    <country>
+        <name>Somalia</name>
+        <flag>SO</flag> <!-- 204 -->
+    </country>
+    <country>
+        <name>South Africa</name>
+        <flag>ZA</flag> <!-- 205 -->
+    </country>
+    <country>
+        <name>South Georgia and the South Sandwich Islands</name>
+        <flag>GS</flag> <!-- 206 -->
+    </country>
+    <country>
+        <name>South Sudan</name>
+        <flag>SS</flag> <!-- 207 -->
+    </country>
+    <country>
+        <name>Spain</name>
+        <flag>ES</flag> <!-- 208 -->
+    </country>
+    <country>
+        <name>Sri Lanka</name>
+        <flag>LK</flag> <!-- 209 -->
+    </country>
+    <country>
+        <name>Sudan</name>
+        <flag>SD</flag> <!-- 210 -->
+    </country>
+    <country>
+        <name>Suriname</name>
+        <flag>SR</flag> <!-- 211 -->
+    </country>
+    <country>
+        <name>Svalbard and Jan Mayen</name>
+        <flag>SJ</flag> <!-- 212 -->
+    </country>
+    <country>
+        <name>Sweden</name>
+        <flag>SE</flag> <!-- 213 -->
+    </country>
+    <country>
+        <name>Switzerland</name>
+        <flag>CH</flag> <!-- 214 -->
+    </country>
+    <country>
+        <name>Syria</name>
+        <flag>SY</flag> <!-- 215 -->
+    </country>
+    <country>
+        <name>Taiwan</name>
+        <flag>TW</flag> <!-- 216 -->
+    </country>
+    <country>
+        <name>Tajikistan</name>
+        <flag>TJ</flag> <!-- 217 -->
+    </country>
+    <country>
+        <name>Tanzania</name>
+        <flag>TZ</flag> <!-- 218 -->
+    </country>
+    <country>
+        <name>Thailand</name>
+        <flag>TH</flag> <!-- 219 -->
+    </country>
+    <country>
+        <name>Timor-Leste</name>
+        <flag>TL</flag> <!-- 220 -->
+    </country>
+    <country>
+        <name>Togo</name>
+        <flag>TG</flag> <!-- 221 -->
+    </country>
+    <country>
+        <name>Tokelau</name>
+        <flag>TK</flag> <!-- 222 -->
+    </country>
+    <country>
+        <name>Tonga</name>
+        <flag>TO</flag> <!-- 223 -->
+    </country>
+    <country>
+        <name>Trinidad and Tobago</name>
+        <flag>TT</flag> <!-- 224 -->
+    </country>
+    <country>
+        <name>Tunisia</name>
+        <flag>TN</flag> <!-- 225 -->
+    </country>
+    <country>
+        <name>Turkey</name>
+        <flag>TR</flag> <!-- 226 -->
+    </country>
+    <country>
+        <name>Turkmenistan</name>
+        <flag>TM</flag> <!-- 227 -->
+    </country>
+    <country>
+        <name>Tuvalu</name>
+        <flag>TV</flag> <!-- 228 -->
+    </country>
+    <country>
+        <name>Uganda</name>
+        <flag>UG</flag> <!-- 229 -->
+    </country>
+    <country>
+        <name>Ukraine</name>
+        <flag>UA</flag> <!-- 230 -->
+    </country>
+    <country>
+        <name>United Arab Emirates</name>
+        <flag>AE</flag> <!-- 231 -->
+    </country>
+    <country>
+        <name>United Kingdom</name>
+        <flag>GB</flag> <!-- 232 -->
+    </country>
+    <country>
+        <name>United States</name>
+        <flag>US</flag> <!-- 233 -->
+    </country>
+    <country>
+        <name>Uruguay</name>
+        <flag>UY</flag> <!-- 234 -->
+    </country>
+    <country>
+        <name>Uzbekistan</name>
+        <flag>UZ</flag> <!-- 235 -->
+    </country>
+    <country>
+        <name>Vanuatu</name>
+        <flag>VU</flag> <!-- 236 -->
+    </country>
+    <country>
+        <name>Vatican City</name>
+        <flag>VA</flag> <!-- 237 -->
+    </country>
+    <country>
+        <name>Venezuela</name>
+        <flag>VE</flag> <!-- 238 -->
+    </country>
+    <country>
+        <name>Vietnam</name>
+        <flag>VN</flag> <!-- 239 -->
+    </country>
+    <country>
+        <name>Wallis and Futuna</name>
+        <flag>WF</flag> <!-- 240 -->
+    </country>
+    <country>
+        <name>Western Sahara</name>
+        <flag>EH</flag> <!-- 241 -->
+    </country>
+    <country>
+        <name>Yemen</name>
+        <flag>YE</flag> <!-- 242 -->
+    </country>
+    <country>
+        <name>Zambia</name>
+        <flag>ZM</flag> <!-- 243 -->
+    </country>
+    <country>
+        <name>Zimbabwe</name>
+        <flag>ZW</flag> <!-- 244 -->
+    </country>
+</countries>

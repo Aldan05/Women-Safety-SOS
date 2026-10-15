@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="?attr/colorPrimary">
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="start"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/back"
+                android:onClick="BackFromPermission" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Required permissions"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"/>
+        </androidx.appcompat.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Permission Settings"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Location -->
+        <LinearLayout android:orientation="horizontal" android:padding="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Switch android:id="@+id/locationSwitch" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location permission is essential to share your live location to emergency contacts"
+                android:textSize="17dp"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <!-- SMS -->
+        <LinearLayout android:orientation="horizontal" android:padding="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Switch android:id="@+id/smsSwitch" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SMS permission is required to send panic messages"
+                android:textSize="17dp"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <!-- Call -->
+        <LinearLayout android:orientation="horizontal" android:padding="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Switch android:id="@+id/callSwitch" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call permission is required to call emergency numbers"
+                android:textSize="17dp"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <!-- Microphone -->
+        <LinearLayout android:orientation="horizontal" android:padding="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Switch android:id="@+id/microphoneSwitch" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Microphone permission is required for voice wake word"
+                android:textSize="17dp"
+                android:checked="true"/>
+        </LinearLayout>
+
+        <Switch
+            android:id="@+id/cameraSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Camera permission is necessary to capture 15 seconds backround video while on distress. Also to share the video to Emergency contacts during distress."
+            android:checked="true"
+            android:textSize="17dp"
+            android:padding="16dp"
+
+            />
+
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/requestPermissionsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:text="Grant Permissions"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_backround" />
+    </LinearLayout>
+</ScrollView>
